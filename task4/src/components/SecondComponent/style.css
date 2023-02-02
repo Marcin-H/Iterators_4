@@ -1,0 +1,78 @@
+.second_container {
+  max-height: 280px;
+  max-width: 580px;
+  width: 100%;
+  height: 100%;
+  background: rgb(60, 168, 246);
+  border-radius: 30px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.second_subContainer {
+  padding: 40px;
+}
+
+.second_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second_header__profile {
+  display: flex;
+  align-items: center;
+}
+
+.second_profileImg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.second_addBtn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(55, 55, 207);
+  border: 0;
+}
+
+.second_profileInfo {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.second_profileInfo th:nth-child(even) {
+  padding-left: 40px;
+}
+
+.second_profileInfo tr:nth-child(even) {
+  color: rgb(255, 255, 255, 0.second_7);
+}
+
+.second_footerMenu {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.second_footerMenuIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
